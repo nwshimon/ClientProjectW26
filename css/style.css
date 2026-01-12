@@ -1,0 +1,64 @@
+/* Base layout */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  line-height: 1.4;
+}
+
+header, main, footer {
+  padding: 1rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header p {
+  margin-top: 0.25rem;
+  opacity: 0.8;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+/* Cards */
+article {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Definition lists */
+dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 1rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+}
+
+/* Timeline */
+ol {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 1.5rem;
+}
