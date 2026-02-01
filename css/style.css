@@ -1,12 +1,24 @@
 /* Base layout */
 body {
   font-family: sans-serif;
+  color: navy;
+  background-color: coral;
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.5;
+  font-size: 1em
 }
 
 header, main, footer {
   padding: 1rem;
+  background-color: beige;
+}
+
+h1 {
+  font-size: 3em
+}
+
+h2 {
+  font-size: 1.5em
 }
 
 main {
@@ -29,6 +41,10 @@ th, td {
   padding: 0.5rem;
   border-bottom: 1px solid #ccc;
   text-align: left;
+}
+
+img {
+  width: 300px;
 }
 
 /* Cards */
