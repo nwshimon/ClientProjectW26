@@ -11,6 +11,8 @@ body {
 header {
   padding: 1rem;
   background-color: navy;
+  border: solid;
+  color: white
 }
 
 main {
@@ -63,12 +65,13 @@ th, td {
 
 img {
   width: 300px;
+  display: block;
 }
 
 /* Cards */
 article {
-  border: 1px solid #ccc;
-  border-radius: 12px;
+  border: solid 5px navy;
+  border-radius: 5px;
   padding: 1rem;
   margin-bottom: 1rem;
 }
