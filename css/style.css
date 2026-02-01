@@ -1,24 +1,37 @@
 /* Base layout */
 body {
-  font-family: sans-serif;
-  color: navy;
-  background-color: coral;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  color: black;
+  background-color: skyblue;
   margin: 0;
-  line-height: 1.5;
   font-size: 1em
 }
 
-header, main, footer {
+header {
+  padding: 1rem;
+  background-color: navy;
+}
+
+main {
   padding: 1rem;
   background-color: beige;
 }
 
+footer {
+  padding: 1rem;
+  background-color: navy;
+  border: solid;
+  color: white;
+}
+
 h1 {
-  font-size: 3em
+  font-size: 3em;
+  color: white;
 }
 
 h2 {
-  font-size: 1.5em
+  font-size: 1.5em;
 }
 
 main {
@@ -27,8 +40,13 @@ main {
 }
 
 header p {
-  margin-top: 0.25rem;
+  color: white;
+  margin-top: 0.1rem;
   opacity: 0.8;
+}
+
+header a {
+  color: skyblue;
 }
 
 /* Tables */
